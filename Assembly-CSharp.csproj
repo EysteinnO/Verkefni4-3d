@@ -53,12 +53,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ClickScript.cs" />
-     <Compile Include="Assets\ifpressed.cs" />
-     <Compile Include="Assets\paintingcollision.cs" />
-     <Compile Include="Assets\PlayerCamera.cs" />
+     <Compile Include="Assets\DungeonModules\Scripts\DoorAOpen.cs" />
+     <Compile Include="Assets\Scripts\ChestOpen.cs" />
+     <Compile Include="Assets\Scripts\ClickScript.cs" />
+     <Compile Include="Assets\Scripts\Crush.cs" />
+     <Compile Include="Assets\Scripts\fade.cs" />
+     <Compile Include="Assets\Scripts\FreeLook.cs" />
+     <Compile Include="Assets\Scripts\ifpressed.cs" />
+     <Compile Include="Assets\Scripts\LoadScene.cs" />
+     <Compile Include="Assets\Scripts\paintingcollision.cs" />
+     <Compile Include="Assets\Scripts\PlayerCamera.cs" />
+     <Compile Include="Assets\Scripts\Portal.cs" />
+     <Compile Include="Assets\Scripts\Portal2.cs" />
+     <Compile Include="Assets\Scripts\Spike.cs" />
      <None Include="Assets\Textures\readme.txt" />
-     <None Include="Assets\Textures\furni\README.txt" />
+     <None Include="Assets\FreeDungeon\freeDungeon_ReadMe.txt" />
+     <None Include="Assets\ulukai\ulukai\readme.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/eyssi/Documents/GitHub/Verkefni4-3d/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
